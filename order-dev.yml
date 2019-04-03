@@ -27,3 +27,5 @@ mybatis:
 debug: false
 env:
   dev
+label:
+  release
