@@ -19,6 +19,6 @@ spring:
     testOnReturn: false
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-debug: false
+debug: true
 env:
   dev3
