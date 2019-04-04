@@ -25,4 +25,4 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
 debug: true
-env: dev11
+env: dev1
