@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes
