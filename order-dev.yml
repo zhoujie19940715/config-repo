@@ -18,12 +18,12 @@ spring:
     testOnBorrow: false
     testOnReturn: false
   rabbitmq:
-    host: 192.168.3.143
+    host: 192.168.3.211
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 192.168.3.143
+    host: 192.168.3.211
     port: 6379
 mybatis:
   mapper-locations: classpath:mapper/*.xml
